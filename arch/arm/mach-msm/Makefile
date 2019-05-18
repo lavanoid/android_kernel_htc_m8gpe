@@ -445,6 +445,8 @@ obj-$(CONFIG_MSM_DEVFREQ_CPUBW) += devfreq_cpubw.o
 obj-$(CONFIG_WALL_CLK) += wallclk.o
 obj-$(CONFIG_WALL_CLK_SYSFS) += wallclk_sysfs.o
 
+obj-$(CONFIG_MSM_SLEEPER) += msm-sleeper.o
+
 obj-y += display/
 obj-$(CONFIG_ARCH_MSM8974) += board-htc-8974.o htc_acoustic_alsa.o
 obj-$(CONFIG_ARCH_MSM8226) += htc_acoustic_alsa.o
